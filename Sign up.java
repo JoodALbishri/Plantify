@@ -3,10 +3,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class LoginScreenWithPopup {
+public class SignUpScreenWithPopup {
     public static void main(String[] args) {
-        // Create the main frame (window)
-        JFrame frame = new JFrame("Plantify - Login");
+        // Create the main frame window
+        JFrame frame = new JFrame("Plantify - SignUp");
         frame.setSize(400, 600);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
@@ -47,11 +47,11 @@ public class LoginScreenWithPopup {
         frame.add(passwordField);
 
         // Add "Login" button
-        JButton loginButton = new JButton("Login");
-        loginButton.setBounds(50, 320, 140, 40);
-        loginButton.setBackground(new Color(34, 139, 34));
-        loginButton.setForeground(Color.WHITE);
-        frame.add(loginButton);
+        JButton SignUpButton = new JButton("Sign up");
+        SignUpButton.setBounds(50, 320, 140, 40);
+        SignUpButton.setBackground(new Color(34, 139, 34));
+        SignUpButton.setForeground(Color.WHITE);
+        frame.add(SignUpButton);
 
         // Add "Forget Password" button
         JButton forgetButton = new JButton("Forget Password");
