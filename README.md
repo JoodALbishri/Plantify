@@ -5,10 +5,9 @@ Medicinal plants have played a vital role in traditional medicine since ancient 
 # System Features:
 1. Accuracy in identifying medicinal plants using advanced techniques.
 2. Comprehensive medical information about the properties and uses of plants.
-3. User-friendly interface with support for Arabic and English.
-4. Illustrations that help confirm the identity of plants.
-5. A useful educational and research tool for students and researchers.
-6. Quick search using plant names to save time.
+3. Illustrations that help confirm the identity of plants.
+4. A useful educational and research tool for students and researchers.
+5. Quick search using plant names to save time.
 
  # System Requirements:
 1. Software:
