@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #E6F4F1;
+        }
+
+        .container {
+            width: 320px;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: #FFFFFF;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #5A5A5A;
+        }
+
+        .header h2 {
+            font-size: 18px;
+            margin: 5px 0;
+            color: #2D6A4F;
+        }
+
+        .plant-icon {
+            margin-bottom: 10px;
+        }
+
+        .verification-title {
+            color: #2D6A4F;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .verification-instruction {
+            font-size: 14px;
+            color: #5A5A5A;
+            margin-bottom: 20px;
+        }
+
+        .code-inputs {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .code-inputs input {
+            width: 60px;
+            height: 60px;
+            border: 1px solid #CCC;
+            border-radius: 10px;
+            font-size: 24px;
+            text-align: center;
+            background-color: #FFDDD2;
+            color: #5A5A5A;
+        }
+
+        .resend-link {
+            font-size: 14px;
+            color: #FF6F61;
+            text-decoration: none;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .resend-link:hover {
+            text-decoration: underline;
+        }
+
+        .verify-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #FFAB91;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .verify-button:hover {
+            background-color: #FF9170;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="plant-icon">
+                <img src="plant-icon.png" alt="Plantify" width="60">
+            </div>
+            <h1>Verify Your Email</h1>
+            <h2>Plantify</h2>
+        </div>
+
+        <!-- Verification Section -->
+        <div>
+            <p class="verification-title">Account Verification</p>
+            <p class="verification-instruction">Please enter the 4 digit code sent to Your Email</p>
+            <div class="code-inputs">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+                <input type="text" maxlength="1">
+            </div>
+            <a href="#" class="resend-link">Resend Code</a>
+            <button class="verify-button">Verify</button>
+        </div>
+    </div>
+</body>
+</html>
