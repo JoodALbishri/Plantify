@@ -12,7 +12,7 @@ Medicinal plants have played a vital role in traditional medicine since ancient 
  # System Requirements:
 1. Software:
 - Operating System: Windows, macOS, or Linux.
- - Programming Languages: PHP ,CSS, JavaScript.
+ - Programming Languages: PHP ,CSS, HTML, JavaScript.
 - Database: MySQL.
 - Web Servers: Apache or Nginx.
 
