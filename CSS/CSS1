@@ -1,37 +1,55 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
 }
 
-header {
-    background-color: #2d5a27;
+.container {
+    background-color: #4caf50;
     color: white;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2rem;
+h1 {
+    font-size: 24px;
 }
 
-footer {
-    background-color: #2d5a27;
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    background-color: white;
+}
+
+button {
+    background-color: black;
     color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+    cursor: pointer;
 }
 
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
+button:hover {
+    background-color: #2e7d32;
 }
 
+.plants button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
