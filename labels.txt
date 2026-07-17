@@ -1,0 +1,3 @@
+0 Ragdoll cat
+1 british shorthair cat
+2 bengal cat
